@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.12)  20 SEP 2024 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.12)  20 SEP 2024 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,7 +309,7 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 65FBF738CE04CB29031F517B321FC665;533.
+(rerunfilecheck)             Checksum: 0E538E4904BA857D2FB3612AC3C56714;533.
  ) 
 Here is how much of TeX's memory you used:
  10587 strings out of 474116
@@ -318,9 +318,9 @@ Here is how much of TeX's memory you used:
  32824 multiletter control sequences out of 15000+600000
  563661 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,288b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,291b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 101446 bytes).
+Output written on resume.pdf (1 page, 101514 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream

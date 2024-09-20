@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726867939.87251 "/Users/wendoleevillegas/resume/resume.tex" "resume.pdf" "resume" 1726867942.01887 0
-  "/Users/wendoleevillegas/resume/resume.tex" 1726867939.414 7659 7ca5e4c71311fa5a8fbd16ea9b8f7e36 ""
+["pdflatex"] 1726870137.43475 "/Users/wendoleevillegas/resume/resume.tex" "resume.pdf" "resume" 1726870139.01064 0
+  "/Users/wendoleevillegas/resume/resume.tex" 1726870135.66055 7726 4a811143c487a7becea0fd43a5dffc43 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -85,9 +85,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726179964.32796 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726179589 8221428 f66d406249cc2eb8d64613c8bea89a5b ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "resume.aux" 1726867941.74987 879 9cb2128aacd03eacf76b8dd537e4611c "pdflatex"
-  "resume.out" 1726867941.75165 533 65fbf738ce04cb29031f517b321fc665 "pdflatex"
-  "resume.tex" 1726867939.414 7659 7ca5e4c71311fa5a8fbd16ea9b8f7e36 ""
+  "resume.aux" 1726870138.77407 879 99c79d2a881627fa2c0fa881988e5ab4 "pdflatex"
+  "resume.out" 1726870138.7758 533 0e538e4904ba857d2fb3612ac3c56714 "pdflatex"
+  "resume.tex" 1726870135.66055 7726 4a811143c487a7becea0fd43a5dffc43 ""
   (generated)
   "resume.aux"
   "resume.log"
