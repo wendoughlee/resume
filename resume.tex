@@ -18,13 +18,10 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-
-\usepackage{helvet}
-\usepackage{setspace}
-
 \input{glyphtounicode}
 
-\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{helvet} % BELL font
+%\renewcommand{\familydefault}{\sfdefault} % BELL font
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -59,7 +56,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-0.5pt}\scshape\raggedright\large
+  \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -109,7 +106,6 @@
 
 
 \begin{document}
-\setstretch{1} % one and .2 spacing
 
 %----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -119,38 +115,71 @@
 
 \begin{center}
     \textbf{\Huge \scshape Wendolee Villegas} \\ \vspace{1pt}
-    \small Fort Worth, Texas $|$ \href{mailto:x@x.com}{\underline{wvr0312@gmail.com}} $|$ \small 682-551-2632
-    $|$ \href{https://linkedin.com/in/wendolee-villegas-565440252/}{\underline{linkedin.com/in/wendoleevillegas}}
-    %--\href{https://github.com/...}{\underline{github.com/jake}}
+    \small Fort Worth, Texas $|$ \href{mailto:x@x.com}{{wvr0312@gmail.com}} $|$ \small 682-551-2632 $|$
+    \href{https://www.linkedin.com/in/wendolee-villegas-565440252/}{{linkedin.com/in/wendoleevillegas}}
+    %\href{https://github.com/...}{\underline{github.com/jake}}
 \end{center}
 
-%-----------OBJECTIVE-------------------- cater this to each position, could maybe stay on linkedin, but shorten to 1-2 sentences. be active (com sci student seeking etc. etc.)
+%-----------OBJECTIVE-----------
 %\section{Objective}
-%\resumeSubHeadingListStart
-    %\resumeItem{I'm a computer science student interested in AI, cybersecurity, data science, and software engineering. I’m passionate 
-    %about using technology to solve real-world problems and learning new skills inside and outside the classroom. 
-    %}
-%\resumeSubHeadingListEnd
-
+% \resumeSubHeadingListStart
+%    \resumeItem {I’m a computer science student interested in AI, cybersecurity, data science, and software engineering. 
+%    I’m passionate about using technology to solve real-world problems and learning new skills inside and outside the classroom.}
+%  \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Texas at Arlington}{Arlington, Texas}
-      {Bachelor of Science in Computer Science}{August 2021 -- December 2025}
-      \resumeItem{\textbf{GPA:} 3.0}
+      {University of Texas at Arlington, Arlington TX}{December 2025}
+      {Bachelor of Science in Computer Science}{\textbf{GPA:} 3.0}
   \resumeSubHeadingListEnd
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-      \textbf{Spoken Languages:}{ Spanish, English} \\
-      \textbf{Programming Languages:}{ C, Python, C++} \\
-      \textbf{Developer Tools:}{ Github, Visual Studio Code, Sublime Text, Google Colab} \\
-     }}
- \end{itemize}
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{'UTA Grades'} $|$ \emph{GitHub Codespace, HTML, Tailwind CSS, Next,js, Firebase, Figma}}{September 2024 -- Present}
+          \resumeItemListStart
+            %\resumeItem{Collaborating with 20+ developers to build an open-source professor rating website using data from 2017 onward}
+            \resumeItem{Building a cross-functional professor rating website using real data from 2017 onward with a team of 20 developers}
+            %\resumeItem{Streamlining GitHub issue tracking, ensuring smooth integration and project manager approval}
+            \resumeItem{Self-assign GitHub issues, resolve them, and submit pull requests for leader approval to ensure smooth integration}
+            %\resumeItem{Improving UI through Figma mockups and Tailwind CSS, creating responsive, user-friendly designs}
+            \resumeItem{Improving UI through tech stacks, creating responsive, user-friendly designs using Figma}
+            \resumeItem{Slated to be in development for an academic year, targeting launch before Spring 2025 registration}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Image Segmentation - Students in Computing and AI} $|$ \emph{PyTorch, U-Net}}{September 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Collaborating with team of 5 peers under PhD supervision to develop 3 image segmentation prototypes}
+            \resumeItem{Conducting self-research on neural network-based segmentation techniques to deepen personal expertise by 50\% beyond previous personal experience through testing and refinement}
+            \resumeItem{Designing U-Net models for leaf segmentation to achieve 80-90\% accuracy in leaf type classification}
+            \resumeItem{Utilizing PyTorch to create image segmentation models, progressing through an entire 10-week project lifecycle}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Simple Unix Shell} $|$ \emph{C, GitHub Codespace}}{September 2024}
+          \resumeItemListStart
+            \resumeItem{Created a command line interpreter in C to further understand shell architecture and process management}
+            %\resumeItem{Implemented core functionalities, as well as user input commands with tokenization and parsing}
+            \resumeItem{Built features like command execution, pipelining, and I/O redirection, creating a responsive and efficient shell}
+            %\resumeItem{Supported interactive and batch modes for user input by integrating file I/O, output redirection, and error handling}
+            \resumeItem{Implemented file I/O and error handling to support both interactive and batch modes for user input}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Pattern Recognition - OurCS@DFW} $|$ \emph{Matplotlib, Keras, Tensorflow, Google Colab}}{February 2024}
+          \resumeItemListStart
+            \resumeItem{Developed basic machine learning techniques consisting of neutral networks, and nearest neighbor classification}
+            \resumeItem{Implemented using Python and Google Colab, focusing on optical character recognition and digit recognition}
+            \resumeItem{Gained experience with Keras and Tensorflow to train neural networks for pattern recognition applications}
+            %\resumeItem{Developed problem-solving abilities by applying machine learning methods to real-world data sets}
+            \resumeItem{Trained model in a supervised, professor-led environment on the MNIST dataset, achieving 97\% accuracy}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -160,89 +189,45 @@
       {College at Home Advisor}{May 2023 -- July 2023}
       {Apple}{Remote}
       \resumeItemListStart
+<<<<<<< HEAD
         \resumeItem{Trained to solve technical issues in customer's devices which included iOS, iPhones, iPads, and Mac}
         \resumeItem{Learned to troubleshoot iOS software and provided exceptional guidance to customers in a remotely manner}
         \resumeItem{Adapted quickly to new software updates and tools, ensuring proficiency in the latest Apple products and services }
         \resumeItemListEnd
     \resumeSubHeadingListEnd
+=======
+        %\resumeItem{Quickly mastered troubleshooting customer's devices which included iOS, iPhones, and iPads}
+        \resumeItem{Delivered quick technical remote support to customer's devices which included iOS, iPhones, and iPads}
+        %\resumeItem{Efficiently managed customer inquiries, handling calls within a minute of each other in a fast-paced environment}
+        \resumeItem{Efficiently managed customer inquiries, handling 15+ calls daily within a minute of each other}
+        \resumeItem{Adapted swiftly to new software updates and tools, ensuring profiency in the latest Apple products and services}
+        %\resumeItem{Utilized problem-solving skills to diagnose and resolve issues, achieving high customer satisfaction ratings}
+        \resumeItem{Utilized problem-solving skills to diagnose and resolve issues, earning 80\%+ customer satisfaction ratings}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+>>>>>>> 56b013238d21b5f07ea41e3b556eddbefadb5a0f
 
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical and Soft Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Spoken Languages:}{ English, Spanish} \\
+     \textbf{Programming Languages:}{ C, Python, Java, C++} \\
+     \textbf{Developer Tools:}{ GitHub, Visual Studio Code, Sublime Text, Google Colab} \\
+     %\textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
 
-
-%-----------PROJECTS----------- add teamwork under a mentor (write how many students i did ourcs with)
-\section{Projects}
-
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{UTA Grades} $|$ \emph{GitHub Codespace, HTML, Tailwind CSS, Next.js, Firebase, Figma}}{September 2024 -- Present}
-    \resumeItemListStart
-      \resumeItem{Collaborating with 8 developers to build an open-source professor rating website with data from 2017 onward}
-      \resumeItem{Streamlining GitHub issue tracking, ensuring smoth integration and project manager approval}
-      \resumeItem{Improving UI through Figma mockups and Tailwind CSS, creating responsive, user-friendly designs}
-      \resumeItem{Currently slated to be in development for an academic year, targeting launch before
-      Spring 2025 registration}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-%\resumeSubHeadingListStart
-%\resumeProjectHeading
-%    {\textbf{Image Segmentation with Students in Computing and AI} $|$ \emph{Python, PyTorch}}{September 2024 -- Present}
-%    \resumeItemListStart
-%      \resumeItem{Developing an image segmentation model with 6 peers, exploring neural network-based approaches}
-%      \resumeItem{Conducting self-research and implementing neural network models like U-Net}
-%      \resumeItem{Collaborating on dataset selection and preparing a final report and presentation}
-%      \resumeItem{}
-%    \resumeItemListEnd
-%\resumeSubHeadingListEnd
-
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{Simple Unix Shell} $|$ \emph{C, GitHub Codespace, Visual Studio Code}}{September 2024}
-    \resumeItemListStart
-        \resumeItem{Developed a command line interpreter in C to further understand Unix shell architecture and process management}
-        \resumeItem{Implemented core functionalities, as well as user input commands with tokenization and parsing}
-        \resumeItem{Supported interactive and batch modes for user input by integrating file I/O, and output direction with error handling}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{OurCS@DFW} $|$ \emph{Python, Matplotlib, Numpy, Keras, Tensorflow, Google Colab}}{February 2024}
-    \resumeItemListStart
-      \resumeItem{Developed basic machine learning techniques consisting of neural networks, and nearest neighbor classification}
-      \resumeItem{Implemented in Python using Google Colab focusing on letter and face recognition}
-      \resumeItem{Gained basic experience with Keras and Tensorflow to train neural networks for pattern recognition applications}
-      \resumeItem{Developed problem-solving abilities by applying machine learning methods to real-world data sets}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-
-%-----------ORGANIZATIONS---------------- add my position for clubs (member)
+%-----------ORGANIZATIONS-----------
 \section{Organizations}
 
 \resumeSubHeadingListStart
-
-\resumeProjectHeading
-    {{Association of Computer Machinery} \emph}{\small September 2024 -- Present}
-    \resumeItem \small{Member}
-\resumeProjectHeading
-    {{Society of Women Engineers} \emph}{September 2024 -- Present}
-    \resumeItem \small{Member}
-\resumeProjectHeading
-    {{Society of Hispanic Professional Engineers} \emph}{September 2024 -- Present}  
-    \resumeItem \small{Member}
-\resumeProjectHeading
-    {{Students in Computing and Artificial Intelligence} \emph}{September 2024 -- Present}
-    \resumeItem \small{Member}
+    \resumeItem{\textbf{Association for Computing Machinery}, Member}
+    \resumeItem{\textbf{Society of Women Engineers}, Member}
+    \resumeItem{\textbf{Society of Hispanic Professional Engineers}, Member}
+    \resumeItem{\textbf{Students in Computing and Artificial Intelligence}, Member}
 \resumeSubHeadingListEnd
+
 
 %-------------------------------------------
 \end{document}
