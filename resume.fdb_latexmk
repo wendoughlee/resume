@@ -1,10 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1729047920.59119 "/Users/wendoleevillegas/resume/resume.tex" "resume.pdf" "resume" 1729047922.21276 0
-  "/Users/wendoleevillegas/resume/resume.tex" 1729047920.16969 10872 9ecfe5cbf869e8b3e431dd185400a661 ""
+["pdflatex"] 1729048464.95648 "/Users/wendoleevillegas/resume/resume.tex" "resume.pdf" "resume" 1729048467.71591 0
+  "/Users/wendoleevillegas/resume/resume.tex" 1729048464.27305 10866 eda7f425d978d72ee85dd4cbcd4b1c38 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -23,7 +22,6 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1248133631 36554 b67dc2cfa451409e100b3fcf5f506509 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -87,9 +85,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726179964.32796 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726179589 8221428 f66d406249cc2eb8d64613c8bea89a5b ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "resume.aux" 1729047922.0657 792 1e789cabf3ccd277bb8fa2961d0ebfaa "pdflatex"
-  "resume.out" 1729047922.06698 549 e0b734783c89851bf362b54e9e1f5ef1 "pdflatex"
-  "resume.tex" 1729047920.16969 10872 9ecfe5cbf869e8b3e431dd185400a661 ""
+  "resume.aux" 1729048467.51168 792 1e789cabf3ccd277bb8fa2961d0ebfaa "pdflatex"
+  "resume.out" 1729048467.51336 549 e0b734783c89851bf362b54e9e1f5ef1 "pdflatex"
+  "resume.tex" 1729048464.27305 10866 eda7f425d978d72ee85dd4cbcd4b1c38 ""
   (generated)
   "resume.aux"
   "resume.log"
